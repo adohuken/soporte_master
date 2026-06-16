@@ -174,7 +174,7 @@ header.scrolled .nav-search-form:focus-within {
 
 /* Hero Section */
 .hero {
-    padding: 100px 0 80px 0;
+    padding: 60px 0 50px 0;
     text-align: center;
     background: radial-gradient(ellipse at 50% -20%, rgba(79, 70, 229, 0.25) 0%, rgba(6, 182, 212, 0.1) 40%, transparent 70%),
                 url('data:image/svg+xml;utf8,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><filter id="noiseFilter"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23noiseFilter)" opacity="0.04"/></svg>');
@@ -197,7 +197,7 @@ header.scrolled .nav-search-form:focus-within {
     color: var(--text-muted);
     font-size: 19px;
     max-width: 650px;
-    margin: 0 auto 46px auto;
+    margin: 0 auto 30px auto;
     line-height: 1.6;
 }
 
