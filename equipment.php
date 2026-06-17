@@ -127,7 +127,7 @@ $drivers = $drivers_stmt->fetchAll();
             <div class="filter-group">
                 <span class="filter-group-label">Ordenar Por</span>
                 <select name="sort_by" class="search-input"
-                    style="width: 100%; border: 1px solid var(--border-color); border-radius: 8px; padding: 8px 12px; background: rgba(255, 255, 255, 0.04); color: var(--text-main); font-size: 14px;"
+                    style="width: 100%; border: 1px solid var(--border-color); border-radius: 8px; padding: 8px 12px; background-color: #0f1422; color: #f3f4f6; font-size: 14px;"
                     onchange="document.getElementById('filterForm').submit();">
                     <option value="default" <?php echo $sort_by === 'default' ? 'selected' : ''; ?>>Por Categoría
                         (Defecto)</option>
