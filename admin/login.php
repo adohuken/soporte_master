@@ -43,12 +43,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=device-width, initial-scale=1.0">
     <title>Acceso cPanel - Soporte Master</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Admin Styling Sheet -->
-    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/admin.css?v=<?php echo time(); ?>">
 </head>
 <body class="login-body">
+
+<!-- Glowing Orbs -->
+<div class="login-glow login-glow-1"></div>
+<div class="login-glow login-glow-2"></div>
 
 <div class="login-card">
     <div class="login-logo">
@@ -73,13 +79,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="password" name="password" id="password" class="admin-form-input" placeholder="••••••••" required>
         </div>
 
-        <button type="submit" class="btn-primary btn-login">
+        <button type="submit" class="btn-login">
             <i class="fa-solid fa-right-to-bracket"></i> Iniciar Sesión
         </button>
     </form>
     
-    <div style="margin-top: 24px; font-size: 13px;">
-        <a href="../index.php" style="color: var(--text-secondary); text-decoration: underline;">
+    <div style="margin-top: 24px;">
+        <a href="../index.php" class="login-back-link">
             <i class="fa-solid fa-arrow-left"></i> Volver a la web pública
         </a>
     </div>
